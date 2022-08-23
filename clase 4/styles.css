@@ -1,0 +1,37 @@
+/* etiqueta { propiedad : 
+valor ; } */
+*{border:1px solid red}
+/*llamar a la etiqueta directo*/
+    body{background-color: green;}
+ 
+/*llamar a una clase */
+.titular{
+    background-color: blue;
+    color:grey;
+    font-size: 50px;
+}
+
+/*llamar a un id*/
+#titular3{
+    color:deeppink;
+}
+
+
+/*******************/
+.rojo{color:red}
+.borde{border: 1px solid yellow;}
+
+#relativa{
+    position: relative;
+    right:100px;
+    top:100px
+}
+#whatsapp{
+    position:fixed;
+    bottom:1vw;
+    right:1vw;
+}
+
+
+#padding-interno{padding:50px;
+margin:10px;}
