@@ -1,0 +1,44 @@
+*{
+    font-style: italic;
+    font-weight:900;
+    font-variant: small-caps;
+    font-family: 'Qwitcher Grypen', cursive;
+
+}
+
+#caja1{
+    border:1px solid red;
+    margin-top: 50px;
+    padding-top: 100px;
+
+}
+
+#caja2{
+    margin: 10px 20px 30px 40px;
+    /* top rigth bottom left */
+    border: solid red;
+    border-width: 1px 10px 30px 50px;
+    /*debbugear*/
+}
+#imagen-responsive{
+    width: 25%;
+    border:1px solid red;
+    display:block;
+
+}
+
+/*Display:
+-none
+-block
+-inline
+-inlie-block
+*/
+li{
+    display:inline;
+    margin-left: 30px;
+}
+span{
+    /* error typo*/
+    border:1px solid red;
+    display:block;
+}
