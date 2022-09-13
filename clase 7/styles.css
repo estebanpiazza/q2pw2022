@@ -1,0 +1,18 @@
+.grilla{
+
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-item{
+    border: 1px solid red;
+  }
+  .item1 {
+    grid-column: 1 / span 2;
+  }
+
+  .item5{
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
